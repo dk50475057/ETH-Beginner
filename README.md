@@ -1,16 +1,11 @@
-// SPDX-License-Identifier: MIT
-pragma solidity 0.8.18;
+Project Overview: MyToken Smart Contract
 
-/*
-       REQUIREMENTS
-    1. Your contract will have public variables that store the details about your coin (Token Name, Token Abbrv., Total Supply)
-    2. Your contract will have a mapping of addresses to balances (address => uint)
-    3. You will have a mint function that takes two parameters: an address and a value. 
-       The function then increases the total supply by that number and increases the balance 
-       of the “sender” address by that amount
-    4. Your contract will have a burn function, which works the opposite of the mint function, as it will destroy tokens. 
-       It will take an address and value just like the mint functions. It will then deduct the value from the total supply 
-       and from the balance of the “sender”.
-    5. Lastly, your burn function should have conditionals to make sure the balance of "sender" is greater than or equal 
-       to the amount that is supposed to be burned.
-*/
+1.Purpose: Manage a simple cryptocurrency token on Ethereum with minting and burning functionalities.
+
+2.Features: Allows increasing or decreasing the total supply and balances through minting and burning.
+
+3.Tech Stack: Uses Solidity for the contract, Web3.js for blockchain interaction, and HDWalletProvider for wallet management.
+
+4.Deployment: deploy.js compiles and deploys the contract, logging the address.
+
+5.Interaction: interact.js enables token minting, burning, and balance checks on the deployed contract.
