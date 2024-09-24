@@ -78,5 +78,5 @@ This project is licensed under the MIT License. The full license can be found at
 ## Author
 Dilkhush Kumar
 
-## Video Explanation
-https://www.loom.com/share/0383939b46db403baffc21c52ccb7b99?sid=162b6504-8584-4ce5-95bd-cb1c82462b7f
+## Video Explanation new link (as per new Policy Implemented on 23rd September )
+https://www.loom.com/share/cc3276135c0143ca9940213a5a5f814b?sid=2a0d3500-9612-4ca5-bd93-1b4d134d574f
